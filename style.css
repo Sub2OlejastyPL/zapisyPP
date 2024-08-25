@@ -87,6 +87,7 @@ button {
     .message {
         padding: 0;
         width: 95vw;
+        height: 95vh;
     }
   }
 
