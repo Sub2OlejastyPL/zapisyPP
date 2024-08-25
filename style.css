@@ -46,6 +46,11 @@ h1 {
     padding: 4px 6px;
 }
 
+.inputs:focus {
+    outline: none;
+    border: none;
+}
+
 button {
     --primary-color: rgba(255, 255, 255, 0.55);
     --secondary-color: #000;
