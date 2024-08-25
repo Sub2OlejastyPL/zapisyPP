@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="https://formsubmit.co/olejastypl@gmail.com" method="POST">
+    <form action="https://api.web3forms.com/submit" method="POST" class="left">
         <h1>Zapisy PingPong</h1>
 
         <label for="name">Imię dziecka</label>
@@ -25,7 +25,12 @@
         <label for="mail">E-mail kontatkowy</label>
         <input type="mail" autocomplete="off" name="mail" class="inputs">
 
+        <input type="hidden" name="access_key" value="4e685fbb-11c7-4f34-995e-50205bc6e267">
+
         <button type="submit">Zapisz się</button>
     </form>
+    <div class="right">
+        <img src="pingpong.png" alt="pingpong">
+    </div>
 </body>
 </html>
