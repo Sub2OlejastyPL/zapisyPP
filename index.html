@@ -12,23 +12,24 @@
         <h1>Zapisy PingPong</h1>
 
         <label for="name">Imię dziecka</label>
-        <input type="text" id="name" name="name" autocomplete="off" class="inputs">
+        <input type="text" id="name" name="Imię" autocomplete="off" class="inputs" required>
 
         <label for="nazwisko">Nazwisko dziecka</label>
-        <input type="text" id="nazwisko" autocomplete="off" name="nazwisko" class="inputs">
+        <input type="text" id="nazwisko" autocomplete="off" name="Nazwisko" class="inputs" required>
         
         <label for="class">Klasa</label>
-        <input type="text" id="class" autocomplete="off" maxlength="2" name="class" class="inputs">
+        <input type="text" id="class" autocomplete="off" maxlength="2" name="Klasa" class="inputs" required>
         
         <label for="age">Wiek rocznikowy</label>
-        <input type="number" autocomplete="off" name="age" class="inputs">
+        <input type="number" autocomplete="off" name="Wiek" class="inputs" required>
         
         <label for="mail">E-mail kontatkowy</label>
-        <input type="mail" autocomplete="off" name="mail" class="inputs">
+        <input type="mail" autocomplete="off" name="Email rodzica" class="inputs" required>
 
         <input type="hidden" name="access_key" value="4e685fbb-11c7-4f34-995e-50205bc6e267">
         <input type="hidden" name="redirect" value="https://sub2olejastypl.github.io/zapisyPP/zapisano.html">
-        
+        <input type="hidden" name="from_name" value="Zapisy na PingPong">
+
         <button type="submit">Zapisz się</button>
     </form>
     <div class="right">
