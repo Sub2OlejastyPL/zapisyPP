@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
     margin: 0;
@@ -118,15 +119,21 @@ button {
 
   .message > h1 {
     font-size: 40px;
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
   }
 
   .message > p {
     font-size: 25px;
     margin-bottom: 50px;
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
   }
 
   .message > a {
     font-size: 25px;
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
   }
 
 
